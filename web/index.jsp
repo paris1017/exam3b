@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Paris Guo - Personal Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,21 +35,24 @@
           <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Paris Guo</a>
-        <h1>Hello World!</h1>
+     
          <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+              <a class="nav-link" href="index.jsp">Home</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="./Paris-resume.pdf">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Resume</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">My Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Linkedin</a>
+              <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/huinan-guo-a660a0137/">Linkedin</a>
             </li>
            
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Github</a>
+              <a class="nav-link js-scroll-trigger" href="https://github.com/paris1017">Github</a>
             </li>
               <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -67,10 +70,8 @@
         </div>
       </div>
     </header>
-
-
-
-    <!-- about -->
+         
+            <!-- about -->
     <section id="about">
         <div class="row text-center">
           <div class="col-md-4">
@@ -100,5 +101,101 @@
         </div>
       </div>
     </section>
+
+   <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">My Works</h2>
+            <h3 class="section-subheading text-muted">Here shows what I learned during this semester at this class.</h3>
+          </div>
+        </div>
+          
+           <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="./userstories.pdf">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                 
+                </div>
+              </div>
+             
+            </a>
+            <div class="portfolio-caption">
+              <h4>User Stories</h4>
+      
+          </div>
+            </div>
+          </div>
+          
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="./HW4/storyboard.pdf">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                 
+                </div>
+              </div>
+             
+            </a>
+            <div class="portfolio-caption">
+              <h4>Homework 4</h4>
+               <p class="text-muted">Storyboard, class diagram, database diagram </p>
+          </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="./HW5/DBadd.pdf">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                
+                </div>
+              </div>
+            
+            </a>
+            <div class="portfolio-caption">
+              <h4>Homework 5</h4>
+               <p class="text-muted">Database Add and Delete</p>
+              
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="./HW6/Search.pdf">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+             
+            </a>
+            <div class="portfolio-caption">
+              <h4>Homework 6</h4>
+              <p class="text-muted">Search and Update</p>
+            </div>
+          </div>          
+    </section>
+
+         <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center color-white">
+            <h4>
+              <strong>Contact Me</strong>
+            </h4>
+            <p>Apt 2, 715 Carriage Hill
+              <br>Iowa City, IA 52246</p>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-phone fa-fw"></i>
+                (319)-519-3998</li>
+              <li>
+                <i class="fa fa-envelope-o fa-fw"></i>
+                <a href="mailto:parisg1017@gmail.com">Email: parisg1017@gmail.com</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+ </section>
     </body>
 </html>
