@@ -33,28 +33,32 @@
     </head>
      <body id="page-top">
           <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
+      <div class="container text-primary ">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Paris Guo</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
      
          <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
+          <ul class="navbar-nav text-uppercase text-primary ml-auto">
+            <li class="nav-item text-primary">
               <a class="nav-link" href="index.jsp">Home</a>
             </li>
-             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="./Paris-resume.pdf">Resume</a>
+             <li class="nav-item" >
+              <a class="nav-link js-scroll-trigger" href="./resume.pdf">Resume</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" >
               <a class="nav-link js-scroll-trigger" href="#portfolio">My Works</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" >
               <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/huinan-guo-a660a0137/">Linkedin</a>
             </li>
            
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="https://github.com/paris1017">Github</a>
             </li>
-              <li class="nav-item">
+              <li class="nav-item" >
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
@@ -62,44 +66,27 @@
       </div>
     </nav>
           <header class="masthead">
-      <div class="container">
+      <div class="container text-center">
         <div class="intro-text">
           <div class="intro-lead-in">Welcome To My Web site!</div>
           <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">A Little Bit About Me</a>
+          <br>
+       
+
         </div>
       </div>
     </header>
          
             <!-- about -->
     <section id="about">
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Education</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">What I Love To Do</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
+        <div class="container text-center">
+        <div class="photo">
+        <img src=photo.JPG alt= "Photo" width="200"/>
         </div>
-      </div>
+        <p>Hi! I'm Paris. I love learning new skills and keep up with the technologies. I am currently looking for systems analyst internship. </p>
+        </div>
+        
     </section>
 
    <section class="bg-light" id="portfolio">
@@ -170,21 +157,21 @@
             </a>
             <div class="portfolio-caption">
               <h4>Homework 6</h4>
-              <p class="text-muted">Search and Update</p>
+              <p class="text-muted">Data flow: Search and Update</p>
             </div>
           </div>          
     </section>
 
          <section id="contact">
-      <div class="container">
+     <div class="container">
         <div class="row">
-          <div class="col-lg-10 mx-auto text-center color-white">
-            <h4>
-              <strong>Contact Me</strong>
-            </h4>
-            <p>Apt 2, 715 Carriage Hill
-              <br>Iowa City, IA 52246</p>
-            <ul class="list-unstyled">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Contact Me</h2>
+            <p class="section-subheading text-primary">Apt 2, 715 Carriage Hill
+            <br>Iowa City, IA 52246<p>
+        
+          
+            <ul class="list-unstyled text-primary">
               <li>
                 <i class="fa fa-phone fa-fw"></i>
                 (319)-519-3998</li>

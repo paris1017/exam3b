@@ -27,6 +27,10 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+p {float:right;}
+
+.photo {float:left;}
+
 section {
   padding: 100px 0; }
   section h2.section-heading {
@@ -87,7 +91,7 @@ body {
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     border: 0;
     background-color: #fed136;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -101,7 +105,7 @@ body {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fed136; }
@@ -206,7 +210,7 @@ header.masthead {
         height: 20px;
         margin-top: -12px;
         text-align: center;
-        color: white; }
+        color: black; }
         #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
           margin-top: -12px; }
         #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
