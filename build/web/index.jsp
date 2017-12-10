@@ -84,7 +84,7 @@
         <div class="photo">
         <img src=photo.JPG alt= "Photo" width="200"/>
         </div>
-        <p>Hi! I'm Paris. I love learning new skills and keep up with the technologies. I am currently looking for systems analyst internship. </p>
+        <p> Hi there! I'm Paris Guo, a student double majoring in economics and information systems. I love learning new skills and always keep my sight on the newest technologies. I am currently looking for an internship as a systems analyst. I hope to broaden and strengthen my skills related to this field through this internship opportunity. Thanks!</p>
         </div>
         
     </section>
@@ -98,7 +98,7 @@
           </div>
         </div>
           
-           <div class="row">
+          
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="./userstories.pdf">
               <div class="portfolio-hover">
@@ -113,9 +113,9 @@
       
           </div>
             </div>
-          </div>
           
-        <div class="row">
+          
+       
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="./HW4/storyboard.pdf">
               <div class="portfolio-hover">
@@ -130,7 +130,7 @@
                <p class="text-muted">Storyboard, class diagram, database diagram </p>
           </div>
             </div>
-          </div>
+         
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="./HW5/DBadd.pdf">
               <div class="portfolio-hover">
@@ -150,7 +150,6 @@
             <a class="portfolio-link" data-toggle="modal" href="./HW6/Search.pdf">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
              
@@ -159,7 +158,24 @@
               <h4>Homework 6</h4>
               <p class="text-muted">Data flow: Search and Update</p>
             </div>
-          </div>          
+          </div>     
+          
+             <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="http://f17-msci3300-11.azurewebsites.net/lipstickApp3.0/">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                </div>
+              </div>
+             
+            </a>
+            <div class="portfolio-caption">
+              <h4>Lipstick Web Site</h4>
+              <p class="text-muted">In this web site, I can add new record to the database. Also, I can delete or update an existing record in the database. I learned how to add a wireframe to all pages instead of adding features one page by one page, how to format a table and the hover feature, how to read records from an oracle database using servlets, and etc.</p>
+            </div>
+          </div>   
+          
+          
+          
     </section>
 
          <section id="contact">
